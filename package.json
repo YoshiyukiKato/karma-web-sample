@@ -1,0 +1,42 @@
+{
+  "name": "karma-web-sample",
+  "version": "0.0.1",
+  "description": "karma + mocha + webpack + html2js",
+  "main": "index.js",
+  "scripts": {
+    "watch": "$(npm bin)/webpack --config webpack.config.js --watch --debug",
+    "build": "$(npm bin)/webpack --config webpack.config.js --release",
+    "test": "$(npm bin)/karma start karma.conf.js"
+  },
+  "keywords": [
+    "karma",
+    "mocha",
+    "webpack",
+    "html2js"
+  ],
+  "author": "Yoshiyuki Kato",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "karma": "^1.4.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.2",
+    "karma-nyan-reporter": "^0.2.5",
+    "karma-safari-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "2.0.1",
+    "mocha": "^3.2.0",
+    "power-assert": "^1.4.2",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
