@@ -1,7 +1,7 @@
 {
   "name": "karma-web-sample",
   "version": "0.0.1",
-  "description": "karma + mocha + webpack + html2js",
+  "description": "webpack + babel + karma + mocha",
   "main": "index.js",
   "scripts": {
     "watch": "$(npm bin)/webpack --config webpack.config.js --watch --debug",
